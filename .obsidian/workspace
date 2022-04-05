@@ -1,0 +1,94 @@
+{
+  "main": {
+    "id": "8e3e76a7ff62af42",
+    "type": "split",
+    "children": [
+      {
+        "id": "831966651a9a4a66",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "README.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "a4b58cd1c1a931d4",
+    "type": "split",
+    "children": [
+      {
+        "id": "033a3c39577f6d97",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "359f9931f8306a83",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "a435e1bf0f5eebe9",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5bd71fea8f987cac",
+    "type": "split",
+    "children": [
+      {
+        "id": "f3bb293d98108782",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3809ca8d94300e53",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "README.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "831966651a9a4a66",
+  "lastOpenFiles": [
+    "README.md",
+    "Pasted image 20220405202048.png"
+  ]
+}
