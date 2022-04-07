@@ -61,3 +61,22 @@ Cuando haya acabo de subirse la imagen podemos irnos a nuestro usuario y veremos
 ![](https://i.imgur.com/C4rk3KV.png)
 
 ## 3. Publicar la API a través de una máquina Azure
+Para publicar la API en la máquina azure aprovecharemos la imagen que hemos subido a docker hub. Utilizaremos el siguiente comando para descargar la imagen de la página.
+```bash
+$ docker pull matiasagomezj/ollivanders-api
+```
+![](https://i.imgur.com/udGhXiD.png)
+
+Ya descargada la imagen ejecutaremos la imagen con el siguiente comando. Flask, el paquete principal de la aplicación, utiliza por defecto el puerto 5000, añadiendo al comando el parametro `-p 80:5000` lo forzarmos al puerto 80.
+```bash
+$ docker run -p 80:5000 prueba-ollivanders-flask
+```
+![](https://i.imgur.com/k2tXJ20.png)
+
+En el portal Azure nos tendremos que asegurar que se puede acceder al puerto 80.
+![](https://i.imgur.com/2mdNys3.png)
+
+Para finalizar, accederemos a la ip de la máquina azure y podremos ver que todo funciona correctamente.
+![](https://i.imgur.com/WzBQ6lc.png)
+
+
